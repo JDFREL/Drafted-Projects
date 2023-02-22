@@ -1,0 +1,53 @@
+body {
+  display: flex;
+  background-color: beige;
+}
+
+
+.left-sidebar {
+  width: 20%;
+  background-color: rgb(167, 167, 167);
+  height: 100vmax;
+  float: left;
+  padding: 20px;
+  border-radius: 20px;
+  margin: 10px;
+  color: white;
+  text-align: center;
+}
+
+.main-content {
+  width: 80%;
+  background-color: blue;
+  height: 100vmax;
+  padding: 20px;
+  border-radius: 20px;
+  margin: 10px;
+  margin-bottom: 40px;
+  color: white;
+  text-align: center;
+}
+
+.right-sidebar {
+  width: 20%;
+  background-color: rgb(167, 167, 167);
+  height: 100vmax;
+  float: right;
+  padding: 20px;
+  border-radius: 20px;
+  margin: 10px;
+  color: white;
+  text-align: center;
+}
+
+@media screen and (max-width:720px) {
+
+  .left-sidebar {
+    display: none;
+  }
+
+  .right-sidebar {
+    display: none;
+  }
+
+}
